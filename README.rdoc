@@ -36,7 +36,7 @@ Download a local copy & install gem to your computer:
   tar -zxvf chrisle-gattica-*
   cd chrisle-gattica-*
   gem build gattica.gemspec
-  git install gattica
+  gem install gattica
 
 Or, include it your Rails app by editing your gemfile:
 Make sure to run '+bundle install+' afterwards.
