@@ -7,7 +7,7 @@ class Hash
     end.sort * '&'
   end
   
-  def key
+  def key(value=nil)
     self.keys.first if self.length == 1
   end
 
